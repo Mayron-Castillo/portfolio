@@ -5,10 +5,10 @@ function HeaderComponent() {
         <>
             <nav className="header-nav">
                 <ul className="header-ul">
-                    <li className='header-li'>Home</li>
-                    <li className='header-li'>About Me</li>
-                    <li className='header-li'>Experience</li>
-                    <li className='header-li'>Contact me</li>
+                    <li className='header-li'> <a href="#sobre-mi">Sobre mí</a></li>
+                    <li className='header-li'> <a href="#projects">Proyectos</a></li>
+                    <li className='header-li'> <a href="#skills">Habilidades</a></li>
+                    <li className='header-li'> <a href=""></a>Contact me</li>
                 </ul>
             </nav>        
         </>
