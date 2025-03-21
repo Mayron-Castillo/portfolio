@@ -2,24 +2,32 @@
     display: flex;
     position: fixed;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 1.3rem;
-    /* background-color: #134967; */
-    background-color: rgba(19, 73, 103, 0.7);
+    font-weight: 600;
+    background-color: rgb(241, 249, 254, 0.7);
     backdrop-filter: blur(10px);
-    padding: 1.5rem;
+    padding:  1.5rem 0;
     z-index: 1000;
 }
 
 .header-ul{
     cursor: pointer;
-    color: white;
+    color: #0b5981;
     display: flex;
     gap: 3rem;
     list-style: none;
     padding: 0 1.5rem;
 }
 
-.header-li:hover{
-    color: #bee6f9;
+.header-a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in-out;
 }
+
+.header-a:hover{
+    color: #03324f;
+}
+
+

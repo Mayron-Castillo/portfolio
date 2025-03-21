@@ -12,8 +12,8 @@ function Skills() {
     ];
 
     return (
-        <section id='skills' className="skills">
-            <h3 className="skills-title">Habilidades</h3>
+        <section className="skills">
+            <h3 id='skills' className="skills-title">Habilidades</h3>
             <section className="figures">
                 {skills.map((skill, index) => (
                     <figure key={index}>
