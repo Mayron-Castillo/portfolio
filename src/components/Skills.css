@@ -1,0 +1,48 @@
+.skills{
+    padding-top: 3rem;
+}
+.skills-title{
+    font-size: 2.5rem;
+    padding: 1.5rem 0;
+}
+
+.figures{
+	width: auto;
+    border: 1px solid #bee6f9;
+    border-radius: 4px;
+    background-color: #e2f2fc;
+    padding: 1rem;
+    height: auto;
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	justify-items: center;
+    gap: 2rem;
+}
+
+.figure-pos{
+    transition: all 0.3s ease-in-out; 
+}
+
+figure{
+	width: 100px;
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra la imagen y el texto horizontalmente */
+    justify-content: center;
+}
+
+figcaption{
+    font-weight: 550;
+    font-size: 1.2rem;
+    color: #1da2da;
+}
+
+.figure-logos {
+	width: 100px;
+	display: block;
+}
+
+.figure-pos:hover{
+	transform: scale(1.1);
+}

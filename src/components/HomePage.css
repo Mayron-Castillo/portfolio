@@ -1,0 +1,54 @@
+.home-page{
+    padding-top: 6rem;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.home-title{
+    font-size: 4rem;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.home-text{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: justify;
+    max-width: auto;
+}
+
+.ability{
+    font-weight: bolder;
+    color: #0b5981;
+}
+
+.home-logos{
+    display: flex;
+    gap: 1rem;
+}
+
+.logos-text{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    color: white;
+    background-color: #0b5981;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo{
+    width: 2rem;
+}
+
+.logos-text:hover{
+    transform: scale(1.1);
+    background: #083a5a;
+}
+

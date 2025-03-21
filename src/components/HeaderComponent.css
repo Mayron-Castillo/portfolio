@@ -1,0 +1,25 @@
+.header-nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    /* background-color: #134967; */
+    background-color: rgba(19, 73, 103, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem;
+    z-index: 1000;
+}
+
+.header-ul{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding: 0 1.5rem;
+}
+
+.header-li:hover{
+    color: #bee6f9;
+}
