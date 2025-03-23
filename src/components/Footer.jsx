@@ -2,7 +2,9 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <h3 className='footer'>Footer</h3>
+        <section className='footer'>
+            <p className='footer-text'>Designed and Coded by Mayron</p>
+        </section>
     )
 }
 

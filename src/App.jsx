@@ -11,18 +11,18 @@ import Skills from './components/Skills'
 function App() {
 
   return (
-    <>
-    <HeaderComponent></HeaderComponent>
+    <section>
+      <HeaderComponent></HeaderComponent>
 
-    <section className='main'>
-      <HomePage></HomePage>
-      <ProjectsSection></ProjectsSection>
-      <Skills></Skills>
-      <Education></Education>
-      <Contact></Contact>
-      <Footer></Footer>
+      <section className='main'>
+        <HomePage></HomePage>
+        <ProjectsSection></ProjectsSection>
+        <Skills></Skills>
+        <Education></Education>
+        <Contact></Contact>
+      </section>
+        <Footer></Footer>
     </section>
-    </>
   )
 }
 
