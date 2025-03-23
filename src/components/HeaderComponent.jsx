@@ -8,8 +8,8 @@ function HeaderComponent() {
                     <li> <a className='header-a' href="#sobre-mi">Sobre mí</a></li>
                     <li> <a className='header-a' href="#projects">Proyectos</a></li>
                     <li> <a className='header-a' href="#skills">Habilidades</a></li>
-                    <li> <a className='header-a' href="#educacion"></a>Educación</li>
-                    <li> <a className='header-a' href="#contacto"></a>Contact me</li>
+                    <li> <a className='header-a' href="#educacion">Educación</a></li>
+                    <li> <a className='header-a' href="#contacto">Contáctame</a></li>
                 </ul>
             </nav>        
         </>
