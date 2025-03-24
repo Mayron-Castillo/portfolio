@@ -5,6 +5,7 @@ const techImages = {
   HTML: '/src/assets/logos/html5.svg',
   CSS: '/src/assets/logos/css.svg',
   JavaScript: '/src/assets/logos/javascript.svg',
+  React: '/src/assets/logos/react.svg'
 }
 
 const projects = [
@@ -37,12 +38,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "Dragon Ball ",
-    description: "Web de personajes de Dragon Ball desde una API",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    title: "App de notas",
+    description: "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
     image: "/src/assets/logos/proyectos/Goku_dbz_fin.webp",
-    github: "https://github.com/Mayron-Castillo/Dragon-ball",
-    live: "https://dragonball-mayron.netlify.app/",
+    github: "https://github.com/Mayron-Castillo/notes-app-react",
+    live: "https://notes-mayron.netlify.app/",
   },
 ];
 
