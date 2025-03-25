@@ -12,7 +12,7 @@ const projects = [
   {
     id: 1,
     title: "Calculadora",
-    description: "Calculadora simple",
+    description: "Web de una calculadora simple",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/src/assets/logos/calculadora.png",
     github: "https://github.com/Mayron-Castillo/calculadora",
@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "Dragon Ball ",
-    description: "Web de personajes de Dragon Ball desde una API",
+    description: "Web de personajes de Dragon Ball desde una API, en la que se muestran todos los personajes de la saga de Dragon Ball",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/src/assets/logos/proyectos/Goku_dbz_fin.webp",
     github: "https://github.com/Mayron-Castillo/Dragon-ball",
@@ -30,7 +30,7 @@ const projects = [
   {
     id: 3,
     title: "Rick and Morty",
-    description: "App de Rick and Morty",
+    description: "App de Rick and Morty, que se hizo utilizando una API, y en esta app, se muestran varios de los personajes de la serie Rick and Morty",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/src/assets/logos/rickandmorty.png",
     github: "https://github.com/Mayron-Castillo/RickandMorty",
