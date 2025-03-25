@@ -3,10 +3,10 @@ import './HomePage.css'
 function HomePage() {
     return (
         <section id='sobre-mi' className='home-page'>
-            <h1 className='home-title'>I'm Mayron Castillo</h1>
+            <h1 className='home-title'>Soy Mayron Castillo</h1>
             
             <div className='home-text'>
-                <p>Soy un  <span className='ability'>Desarrollador Frontend </span> autodidacta con una gran pasión por la tecnología y el aprendizaje continuo. Actualmente, me especializo en React y JavaScript, creando interfaces modernas, optimizadas y accesibles.</p>            
+                <p><span className='ability'>Desarrollador Frontend </span> autodidacta con una gran pasión por la tecnología y el aprendizaje continuo. Actualmente, me especializo en React y JavaScript, creando interfaces modernas, optimizadas y accesibles.</p>            
                 <p>Estoy enfocado en mejorar mis habilidades para convertirme en un profesional sólido en el desarrollo frontend. Me gusta enfrentar desafíos, aprender nuevas herramientas y crear proyectos que no solo funcionen bien, sino que también brinden una excelente experiencia de usuario.</p>
             </div>
 
