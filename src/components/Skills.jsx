@@ -13,7 +13,7 @@ function Skills() {
 
     return (
         <section className="skills">
-            <h3 id='skills' className="skills-title">Habilidades</h3>
+            <h3 id='skills' className="skills-title">🛠️ Habilidades</h3>
             <section className="figures">
                 {skills.map((skill, index) => (
                     <figure key={index}>

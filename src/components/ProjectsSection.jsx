@@ -81,7 +81,7 @@ function ProjectCard({ project }){
 function ProjectsSection() {
   return (
     <section id="projects" className="projects-section">
-      <h2 className="section-title">Proyectos</h2>
+      <h2 className="section-title">🚀 Proyectos</h2>
       <div className="projects-container">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

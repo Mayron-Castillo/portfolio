@@ -7,6 +7,34 @@
     padding: 1.5rem 0;
 }
 
-.education-list{
-    padding-left: 1.2rem;
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.education-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.education-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.education-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
 }
