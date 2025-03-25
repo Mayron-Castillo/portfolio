@@ -18,10 +18,14 @@ function App() {
         <HomePage></HomePage>
         <ProjectsSection></ProjectsSection>
         <Skills></Skills>
-        <Education></Education>
+        <Education 
+          title='Academia X'
+          date='-Academia X - 2024/2025'
+          languaje='📌 Temas: HTML, CSS, JS, REACT, TAILWIND'
+        ></Education>
         <Contact></Contact>
-      </section>
         <Footer></Footer>
+      </section>
     </section>
   )
 }
