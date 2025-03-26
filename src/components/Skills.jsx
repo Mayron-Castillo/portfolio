@@ -2,13 +2,13 @@ import './Skills.css'
 
 function Skills() {
     const skills = [
-        { src: "/src/assets/logos/html5.svg", alt: "Logotipo de HTML5", logo: "HTML5" },
-        { src: "/src/assets/logos/css.svg", alt: "Logo CSS", logo: "CSS" },
-        { src: "/src/assets/logos/javascript.svg", alt: "Logo JavaScript", logo: "JavaScript" },
-        { src: "/src/assets/logos/react.svg", alt: "Logo React", logo: "React" },
-        { src: "/src/assets/logos/github.svg", alt: "Logo Git", logo: "Git" },
-        { src: "/src/assets/logos/tailwind.svg", alt: "Logo Tailwind", logo: "Tailwind" },
-        { src: "/src/assets/logos/vite.svg", alt: "Logo Vite", logo: "Vite" }
+        { src: "/logos/html5.svg", alt: "Logotipo de HTML5", logo: "HTML5" },
+        { src: "/logos/css.svg", alt: "Logo CSS", logo: "CSS" },
+        { src: "/logos/javascript.svg", alt: "Logo JavaScript", logo: "JavaScript" },
+        { src: "/logos/react.svg", alt: "Logo React", logo: "React" },
+        { src: "/logos/github.svg", alt: "Logo Git", logo: "Git" },
+        { src: "/logos/tailwind.svg", alt: "Logo Tailwind", logo: "Tailwind" },
+        { src: "/logos/vite.svg", alt: "Logo Vite", logo: "Vite" }
     ];
 
     return (

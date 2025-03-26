@@ -2,11 +2,11 @@ import './ProjectsSection.css'
 import React from "react";
 
 const techImages = {
-  HTML: '/src/assets/logos/html5.svg',
-  CSS: '/src/assets/logos/css.svg',
-  JavaScript: '/src/assets/logos/javascript.svg',
-  React: '/src/assets/logos/react.svg'
-}
+  HTML: '/logos/html5.svg',
+  CSS: '/logos/css.svg',
+  JavaScript: '/logos/javascript.svg',
+  React: '/logos/react.svg'
+};
 
 const projects = [
   {
@@ -14,16 +14,16 @@ const projects = [
     title: "Calculadora",
     description: "Web de una calculadora simple",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/src/assets/logos/calculadora.png",
+    image: "/logos/calculadora.png",
     github: "https://github.com/Mayron-Castillo/calculadora",
     live: "https://calculadora-mayron.netlify.app/",
   },
   {
     id: 2,
-    title: "Dragon Ball ",
+    title: "Dragon Ball",
     description: "Web de personajes de Dragon Ball desde una API, en la que se muestran todos los personajes de la saga de Dragon Ball",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/src/assets/logos/goku.png",
+    image: "/logos/goku.png",
     github: "https://github.com/Mayron-Castillo/Dragon-ball",
     live: "https://dragonball-mayron.netlify.app/",
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Rick and Morty",
     description: "App de Rick and Morty, que se hizo utilizando una API, y en esta app, se muestran varios de los personajes de la serie Rick and Morty",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/src/assets/logos/rickandmorty.png",
+    image: "/logos/rickandmorty.png",
     github: "https://github.com/Mayron-Castillo/RickandMorty",
     live: "https://rickandmorty-mayron.netlify.app/",
   },
@@ -41,7 +41,7 @@ const projects = [
     title: "App de notas",
     description: "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
-    image: "/src/assets/logos/notes.png",
+    image: "/logos/notes.png",
     github: "https://github.com/Mayron-Castillo/notes-app-react",
     live: "https://notes-mayron.netlify.app/",
   },
