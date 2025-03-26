@@ -10,12 +10,13 @@
 	width: auto;
     border: 1px solid #bee6f9;
     border-radius: 4px;
-    background-color: #f1f9fe;
+    background-color: #fafdff;
     padding: 1rem;
     height: auto;
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	justify-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 2rem;
 }
 
@@ -28,7 +29,7 @@ figure{
 	text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra la imagen y el texto horizontalmente */
+    align-items: center;
     justify-content: center;
 }
 
