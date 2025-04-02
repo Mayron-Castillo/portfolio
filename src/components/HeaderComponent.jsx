@@ -10,6 +10,7 @@ function HeaderComponent() {
                     <li> <a className='header-a' href="#skills">Habilidades</a></li>
                     <li> <a className='header-a' href="#education">Educación</a></li>
                     <li> <a className='header-a' href="#contact">Contáctame</a></li>
+                    <button className=''>☀️</button>
                 </ul>
             </nav>        
         </>
