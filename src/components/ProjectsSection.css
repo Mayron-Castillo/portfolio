@@ -18,6 +18,8 @@
 
 .project-card {
     display: flex;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
     max-width: 768px;
     height: 350px;
     background: white;
@@ -108,4 +110,42 @@
 
 .link-button:hover {
     background: #083a5a;
+}
+
+@media (max-width: 768px) {
+    .section-title{
+        padding: 1rem;
+    }
+    .projects-container {
+        padding: 0 1rem;
+    }
+
+    .project-card {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .project-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .project-div {
+        padding: 1.5rem;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .project-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .link-button {
+        width: 100%;
+        text-align: center;
+    }
 }
