@@ -4,7 +4,7 @@ function HeaderComponent() {
     return (
         <>
             <nav className="header-nav">
-                <ul className="header-ul">
+                <ul className="header-ul flex-wrap">
                     <li> <a className='header-a' href="#home">Sobre mí</a></li>
                     <li> <a className='header-a' href="#projects">Proyectos</a></li>
                     <li> <a className='header-a' href="#skills">Habilidades</a></li>

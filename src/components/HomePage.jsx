@@ -2,7 +2,7 @@ import './HomePage.css'
 
 function HomePage() {
     return (
-        <section id='home' className='home-page'>
+        <section id='home' className='home-page flex-wrap'>
             <h1 className='home-title'>Soy Mayron Castillo</h1>
             
             <div className='home-text'>
