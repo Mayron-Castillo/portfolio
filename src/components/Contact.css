@@ -1,6 +1,5 @@
 .section-contact{
     padding: 3rem 0;
-    
 }
 
 .section-contact-title {
@@ -31,8 +30,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     margin: auto;
+    padding: 0 1rem;
 }
 
 .contact-input, .contact-textarea {
@@ -67,4 +68,41 @@
 
 .contact-button:hover {
     background: #083a5a;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .section-contact{
+        padding: 1rem;
+    }
+    .contact {
+        padding: 30px 20px;
+    }
+
+    .contact-text {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-contact-title {
+        padding-top: 4rem;
+    }
+
+    .contact {
+        padding: 20px 15px;
+    }
+
+    .contact-text {
+        font-size: 1.4rem;
+    }
+
+    .contact-button {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .contact-input, .contact-textarea {
+        font-size: 15px;
+    }
 }

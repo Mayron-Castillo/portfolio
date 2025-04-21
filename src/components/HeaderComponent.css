@@ -29,3 +29,30 @@
 .header-a:hover{
     color: #03324f;
 }
+
+@media (max-width: 768px) {
+    .header-nav {
+        font-size: 1rem;
+        padding: 0.7rem 0.5rem;
+    }
+
+    .header-ul {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+    .header-nav {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.3rem;
+    }
+
+    .header-ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -19,7 +19,7 @@ function App() {
         <ProjectsSection></ProjectsSection>
         <Skills></Skills>
         <Education 
-          title='Academia X'
+          title='Academia X LLC'
           date='-Academia X - 2024/2025'
           languaje='📌 Temas: HTML, CSS, JS, REACT, TAILWIND'
         ></Education>

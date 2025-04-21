@@ -55,7 +55,7 @@
 
 @media only screen and (max-width: 768px) {
     .home-page{
-        padding-top: 10rem;
+        padding-top: 5rem;
     }
     .home-text, .home-title, .home-logos{
         padding: 1rem;
@@ -63,9 +63,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .home-page{
-        padding-top: 15rem;
-    }
     .home-text, .home-title, .home-logos{
         padding: 1rem;
     }

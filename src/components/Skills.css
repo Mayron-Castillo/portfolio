@@ -4,6 +4,7 @@
 .skills-title{
     font-size: 2.5rem;
     padding: 1.5rem 0;
+    scroll-margin-top: 100px;
 }
 
 .figures{
@@ -46,4 +47,14 @@ figcaption{
 
 .figure-pos:hover{
 	transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .skills{
+        padding: 1rem;
+    }
+
+    .skills-title {
+        padding-top: 3rem; /* Ajuste también para pantallas pequeñas */
+    }
 }
