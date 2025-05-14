@@ -1,5 +1,3 @@
-import './HeaderComponent.css'
-
 function HeaderComponent() {
     return (
         <>
