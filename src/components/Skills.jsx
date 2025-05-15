@@ -12,14 +12,14 @@ function Skills() {
     ];
 
     return (
-        <section id='skills' className="skills">
-            <h3 className="skills-title">🛠️ Habilidades</h3>
-            <section className="figures">
+        <section id='skills' className="pt-16 px-4 md:px-0 md:pt-12">
+            <h3 className="text-[2.5rem] py-[1.5rem] md:pt-12">🛠️ Habilidades</h3>
+            <section className="w-auto border-2 border-[#bee6f9] bg-[#fafdff] rounded-lg p-4 h-auto shadow-lg grid gap-8 justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {skills.map((skill, index) => (
-                    <figure key={index}>
-                        <div className="figure-pos">
-                            <img className="figure-logos" src={skill.src} alt={skill.alt} />
-                            <figcaption>{skill.logo}</figcaption>
+                    <figure key={index} class='w-[100px] text-center flex flex-col items-center justify-center'>
+                        <div className="transition-all duration-300 ease-in-out hover:scale-105">
+                            <img className="w-[100px] block" src={skill.src} alt={skill.alt} />
+                            <figcaption class='font-semibold text-l text-black'>{skill.logo}</figcaption>
                         </div>
                     </figure>
                 ))}
