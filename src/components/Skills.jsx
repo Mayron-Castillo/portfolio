@@ -1,5 +1,3 @@
-import './Skills.css'
-
 function Skills() {
     const skills = [
         { src: "/logos/html5.svg", alt: "Logotipo de HTML5", logo: "HTML5" },
