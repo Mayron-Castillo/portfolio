@@ -1,14 +1,43 @@
+import { useState } from 'react'
+
 function HeaderComponent() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <>
-            {/* <nav className="header-nav"> */}
-            <nav className="flex fixed w-full justify-around text-xl py-[0.5rem] px-[0.3rem] md:text-2xl md:py-[0.7rem] md:px-[0.5rem] lg:text-2xl lg:py-4 lg:px-0 font-semibold bg-[#f1f9feb3] backdrop-blur-[10px] z-10">
-                <ul className="cursor-pointer text-[#086a9c] flex gap-4 flex-wrap justify-center md:gap-6 lg:gap-12 list-none px-6">
-                    <li> <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f]' href="#home">Sobre mí</a></li>
-                    <li> <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f]' href="#projects">Proyectos</a></li>
-                    <li> <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f]' href="#skills">Habilidades</a></li>
-                    <li> <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f]' href="#education">Educación</a></li>
-                    <li> <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f]' href="#contact">Contáctame</a></li>
+            <nav className="flex fixed w-full items-center justify-between md:justify-around text-xl py-[0.5rem] px-[0.3rem] md:text-2xl md:py-[0.7rem] md:px-[0.5rem] lg:text-2xl lg:py-4 lg:px-0 font-semibold bg-[#f1f9fe] backdrop-blur-[10px] z-10">
+                <div className="px-4 md:hidden">
+                    <span className="text-[#086a9c]">MC</span>
+                </div>
+
+                <button 
+                    onClick={toggleMenu}
+                    className="md:hidden px-4 py-2 z-50 relative text-[#086a9c] text-2xl transition-all duration-300"
+                    aria-label="Toggle menu"
+                >
+                    {isMenuOpen ? 'X' : '☰'}
+                </button>
+
+                <ul className={`cursor-pointer text-[#086a9c] fixed md:static top-0 md:top-0 right-0 w-full h-screen md:h-auto md:w-auto bg-[#f1f9fe] backdrop-blur-[20px] md:bg-transparent flex flex-col md:flex-row items-center justify-center md:justify-normal gap-8 md:gap-6 lg:gap-12 list-none px-6 py-4 md:py-0 transition-all duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}`}>
+                    <li className="w-full text-center md:w-auto md:text-left"> 
+                        <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f] text-2xl md:text-inherit font-semibold' href="#home" onClick={() => setIsMenuOpen(false)}>Sobre mí</a>
+                    </li>
+                    <li className="w-full text-center md:w-auto md:text-left"> 
+                        <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f] text-2xl md:text-inherit font-semibold' href="#projects" onClick={() => setIsMenuOpen(false)}>Proyectos</a>
+                    </li>
+                    <li className="w-full text-center md:w-auto md:text-left"> 
+                        <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f] text-2xl md:text-inherit font-semibold' href="#skills" onClick={() => setIsMenuOpen(false)}>Habilidades</a>
+                    </li>
+                    <li className="w-full text-center md:w-auto md:text-left"> 
+                        <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f] text-2xl md:text-inherit font-semibold' href="#education" onClick={() => setIsMenuOpen(false)}>Educación</a>
+                    </li>
+                    <li className="w-full text-center md:w-auto md:text-left"> 
+                        <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f] text-2xl md:text-inherit font-semibold' href="#contact" onClick={() => setIsMenuOpen(false)}>Contáctame</a>
+                    </li>
                 </ul>
             </nav>        
         </>
