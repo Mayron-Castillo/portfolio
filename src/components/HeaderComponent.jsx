@@ -9,7 +9,7 @@ function HeaderComponent() {
 
     return (
         <>
-            <nav className="flex fixed w-full items-center justify-between md:justify-around text-xl py-[0.5rem] px-[0.3rem] md:text-2xl md:py-[0.7rem] md:px-[0.5rem] lg:text-2xl lg:py-4 lg:px-0 font-semibold bg-[#f1f9fe] backdrop-blur-[10px] z-10">
+            <nav className="flex fixed w-full items-center justify-between md:justify-around text-xl py-[0.5rem] px-[0.3rem] md:text-2xl md:py-[0.7rem] md:px-[0.5rem] lg:text-2xl lg:py-4 lg:px-0 font-semibold bg-[#f1f9fe]/80 backdrop-blur-md z-10">
                 <div className="px-4 md:hidden">
                     <span className="text-[#086a9c]">MC</span>
                 </div>
@@ -22,7 +22,7 @@ function HeaderComponent() {
                     {isMenuOpen ? 'X' : '☰'}
                 </button>
 
-                <ul className={`cursor-pointer text-[#086a9c] fixed md:static top-0 md:top-0 right-0 w-full h-screen md:h-auto md:w-auto bg-[#f1f9fe] backdrop-blur-[20px] md:bg-transparent flex flex-col md:flex-row items-center justify-center md:justify-normal gap-8 md:gap-6 lg:gap-12 list-none px-6 py-4 md:py-0 transition-all duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}`}>
+                <ul className={`fixed md:static top-0 right-0 w-full h-screen md:h-auto md:w-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-6 lg:gap-12 px-6 py-4 md:py-0 text-[#086a9c] transition-all duration-300 ${isMenuOpen ? 'translate-x-0 bg-[#f1f9fe]/95 backdrop-blur-lg' : 'translate-x-full md:translate-x-0'}`}>
                     <li className="w-full text-center md:w-auto md:text-left"> 
                         <a className='no-underline text-inherit transition-all duration-300 ease-in-out hover:text-[#03324f] text-2xl md:text-inherit font-semibold' href="#home" onClick={() => setIsMenuOpen(false)}>Sobre mí</a>
                     </li>

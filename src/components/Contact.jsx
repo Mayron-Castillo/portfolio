@@ -1,6 +1,5 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css";
 
 function Contact() {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -29,19 +28,19 @@ function Contact() {
     };
 
     return (
-        <section className="section-contact">
-            <h3 id="contact" className="section-contact-title">📬 Contáctame</h3>
-            <section className="contact">
-                <p className="contact-text">Puedes escribirme:</p>
+        <section id="contact" className="pt-12 px-4 md:px-0 md:pt-12">
+            <h3 className="text-[2.5rem] py-[1.5rem] md:pt-12">📬 Contáctame</h3>
+            <section className="text-center p-[40px] bg-[#fafdff] border-2 border-[#bee6f9] rounded-lg shadow-lg m-auto max-w-[768px]">
+                <p className="text-[2rem] text-[#333] mb-5">Puedes escribirme:</p>
 
-                <form onSubmit={handleSubmit} className="contact-form">
+                <form onSubmit={handleSubmit} className="flex flex-col gap-3 w-full max-w-[400px] mx-auto px-4">
                     <input
                         type="text"
                         name="name"
                         placeholder="Tu Nombre"
                         value={formData.name}
                         onChange={handleChange}
-                        className="contact-input"
+                        className="w-full p-3 border-2 border-[#bee6f9] rounded-md outline-none transition-all duration-300 ease-in-out hover:border-[#85d2f4] focus:border-[#85d2f4]"
                         required
                     />
                     <input
@@ -50,7 +49,7 @@ function Contact() {
                         placeholder="Tu Email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="contact-input"
+                        className="w-full p-3 border-2 border-[#bee6f9] rounded-md outline-none transition-all duration-300 ease-in-out hover:border-[#85d2f4] focus:border-[#85d2f4]"
                         required
                     />
                     <textarea
@@ -58,10 +57,10 @@ function Contact() {
                         placeholder="Tu Mensaje"
                         value={formData.message}
                         onChange={handleChange}
-                        className="contact-textarea"
+                        className="w-full p-3 border-2 border-[#bee6f9] rounded-md outline-none transition-all duration-300 ease-in-out hover:border-[#85d2f4] focus:border-[#85d2f4] resize-none h-[120px]"
                         required
                     />
-                    <button type="submit" className="contact-button">Enviar</button>
+                    <button type="submit" className="bg-[#0b5981] text-white p-3 rounded-md transition-all duration-300 ease-in-out hover:bg-[#083a5a]">Enviar</button>
                 </form>
             </section>
         </section>

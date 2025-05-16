@@ -100,7 +100,7 @@ function ProjectCard({ project }){
 
 function ProjectsSection() {
   return (
-    <section id="projects" className="pt-16 md:pt-12">
+    <section id="projects" className="pt-12 md:pt-12">
       <h2 className="text-[2.5rem] py-[1.5rem] px-4 md:px-0">🚀 Proyectos</h2>
       <div className="flex flex-col max-w-[768px] mx-auto gap-8 justify-center px-4 md:px-0">
         {projects.map((project) => (
