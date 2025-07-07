@@ -13,7 +13,7 @@ const projects = [
     description:
       "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-    image: "/logos/portfolio.png",
+    image: "/logos/portfolio.webp",
     github: "https://github.com/Mayron-Castillo/portfolio",
     live: "https://portfolio-mayron.vercel.app/",
   },
@@ -23,7 +23,7 @@ const projects = [
     description:
       "Web de una e-commerce de camisetas de futbol, con varias funcionalidades",
     technologies: ["React", "Tailwind"],
-    image: "/logos/e-commerce.png",
+    image: "/logos/e-commerce.webp",
     github: "https://github.com/Mayron-Castillo/e-commerce-futbol",
     live: "https://e-commerce-futbol-mayron.vercel.app/",
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Calculadora",
     description: "Web de una calculadora simple",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/logos/calculadora.png",
+    image: "/logos/calculadora.webp",
     github: "https://github.com/Mayron-Castillo/calculadora",
     live: "https://calculadora-mayron.netlify.app/",
   },
@@ -42,7 +42,7 @@ const projects = [
     description:
       "Web de personajes de Dragon Ball desde una API, en la que se muestran todos los personajes de la saga de Dragon Ball",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/logos/goku.png",
+    image: "/logos/goku.webp",
     github: "https://github.com/Mayron-Castillo/Dragon-ball",
     live: "https://dragonball-mayron.netlify.app/",
   },
@@ -52,7 +52,7 @@ const projects = [
     description:
       "App de Rick and Morty, que se hizo utilizando una API, y en esta app, se muestran varios de los personajes de la serie Rick and Morty",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/logos/rickandmorty.png",
+    image: "/logos/rickandmorty.webp",
     github: "https://github.com/Mayron-Castillo/RickandMorty",
     live: "https://rickandmorty-mayron.netlify.app/",
   },
@@ -62,7 +62,7 @@ const projects = [
     description:
       "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
-    image: "/logos/notes.png",
+    image: "/logos/notes.webp",
     github: "https://github.com/Mayron-Castillo/notes-app-react",
     live: "https://notes-mayron.netlify.app/",
   },
@@ -70,11 +70,12 @@ const projects = [
 
 function ProjectCard({ project }) {
   return (
-    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] bg-white rounded-xl shadow-md transition-transform duration-300 hover:scale-101">
+    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] bg-white rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl border border-[#e3f3fa]">
       <img
         src={project.image}
         alt={project.title}
         className="w-full md:w-[350px] h-auto object-cover rounded-t-lg md:rounded-l-lg md:rounded-tr-none"
+        loading="lazy"
       />
       <div className="flex flex-col justify-around items-start p-6 md:p-4 gap-4 w-full">
         <h3 className="text-2xl text-[#0b5981]">{project.title}</h3>

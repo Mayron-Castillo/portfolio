@@ -74,7 +74,7 @@ function Contact() {
           />
           <button
             type="submit"
-            className="bg-[#0b5981] text-white p-3 rounded-md transition-all duration-300 ease-in-out hover:bg-[#083a5a]"
+            className="bg-[#0b5981] text-white p-3 rounded-md cursor-pointer transition-all duration-300 ease-in-out hover:bg-[#083a5a]"
           >
             Enviar
           </button>
