@@ -16,11 +16,7 @@ function App() {
         <HomePage></HomePage>
         <ProjectsSection></ProjectsSection>
         <Skills></Skills>
-        <Education
-          title="Academia X LLC"
-          date="-Academia X - 2024/2025"
-          languaje="📌 Temas: HTML, CSS, JS, REACT, TAILWIND"
-        ></Education>
+        <Education></Education>
         <Contact></Contact>
         <Footer></Footer>
       </section>
