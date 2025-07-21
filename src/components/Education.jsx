@@ -11,7 +11,7 @@ function Education() {
             Academia X LLC
           </h3>
           <p className="my-2 text-sm md:text-base text-[#666]">
-            -Academia X - Noviembre 2024- Julio 2025
+            Noviembre 2024- Julio 2025
           </p>
           <p className="my-2 text-sm md:text-base text-[#666]">
             📌 Temas: HTML, CSS, JS, REACT, TAILWIND"
@@ -27,7 +27,7 @@ function Education() {
             Enero 2024 - Septiembre 2024
           </p>
           <p className="my-2 text-sm md:text-base text-[#666]">
-            HTML,CSS,JS,REACT,GIT,SQL
+            📌 Temas: HTML,CSS,JS,REACT,GIT,SQL
           </p>
         </div>
       </div>
