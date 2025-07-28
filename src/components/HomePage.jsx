@@ -2,7 +2,7 @@ function HomePage() {
   return (
     <section
       id="home"
-      className="flex flex-wrap flex-col gap-4 pt-[5rem] px-4 md:pt-20 md:px-0 max-w-[1200px] mx-auto"
+      className="flex flex-wrap flex-col gap-4 pt-[6rem] px-4 md:pt-20 md:px-0 max-w-[1200px] mx-auto"
     >
       <h1 className="text-6xl font-semibold p-4 md:p-0">Soy Mayron Castillo</h1>
 

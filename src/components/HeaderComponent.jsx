@@ -1,16 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function HeaderComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,15 +9,7 @@ function HeaderComponent() {
 
   return (
     <>
-      <nav
-        className={`flex sticky top-0 w-full items-center justify-between md:justify-around text-xl py-[0.5rem] px-[0.3rem] md:text-2xl md:py-[0.7rem] md:px-[0.5rem] lg:text-2xl lg:py-4 lg:px-0 font-semibold z-10 transition-all duration-300 ${
-          scrolled ? "shadow-2xl" : ""
-        } ${scrolled ? "bg-[#f1f9fe]" : "bg-[#f1f9fe]/95"}`}
-        style={{
-          backdropFilter: scrolled ? "blur(10px)" : "none",
-          WebkitBackdropFilter: scrolled ? "blur(10px)" : "none",
-        }}
-      >
+      <nav className="flex sticky top-0 w-full items-center justify-between md:justify-around text-xl py-[0.5rem] px-[0.3rem] md:text-2xl md:py-[0.7rem] md:px-[0.5rem] lg:text-2xl lg:py-4 lg:px-0 font-semibold z-10 bg-[#f1f9fe]">
         <div className="px-4 md:hidden">
           <span className="text-[#086a9c]">MC</span>
         </div>
