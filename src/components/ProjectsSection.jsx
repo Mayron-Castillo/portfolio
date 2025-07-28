@@ -38,26 +38,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "Dragon Ball",
-    description:
-      "Web de personajes de Dragon Ball desde una API, en la que se muestran todos los personajes de la saga de Dragon Ball",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/logos/goku.webp",
-    github: "https://github.com/Mayron-Castillo/Dragon-ball",
-    live: "https://dragonball-mayron.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "Rick and Morty",
-    description:
-      "App de Rick and Morty, que se hizo utilizando una API, y en esta app, se muestran varios de los personajes de la serie Rick and Morty",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/logos/rickandmorty.webp",
-    github: "https://github.com/Mayron-Castillo/RickandMorty",
-    live: "https://rickandmorty-mayron.netlify.app/",
-  },
-  {
-    id: 6,
     title: "App de notas",
     description:
       "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
