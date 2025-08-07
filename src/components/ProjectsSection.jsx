@@ -29,6 +29,16 @@ const projects = [
   },
   {
     id: 3,
+    title: "Dashboard",
+    description: "Web de una dashboard",
+    technologies: ["React", "Tailwind"],
+    image: "/logos/dashboard.webp",
+    github: "https://github.com/Mayron-Castillo/dashboard",
+    live: "https://mayrondashboard.vercel.app/",
+  },
+
+  {
+    id: 4,
     title: "Calculadora",
     description: "Web de una calculadora simple",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -37,7 +47,7 @@ const projects = [
     live: "https://calculadora-mayron.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "App de notas",
     description:
       "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
