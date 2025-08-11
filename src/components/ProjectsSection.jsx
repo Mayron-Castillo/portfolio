@@ -60,14 +60,14 @@ const projects = [
 
 function ProjectCard({ project }) {
   return (
-    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] bg-white rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl border border-[#e3f3fa]">
+    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] bg-white rounded-2xl shadow-lg border border-[#e3f3fa]">
       <img
         src={project.image}
         alt={project.title}
         className="w-full md:w-[350px] h-auto object-cover rounded-t-lg md:rounded-l-lg md:rounded-tr-none"
         loading="lazy"
       />
-      <div className="flex flex-col justify-around items-start p-6 md:p-4 gap-4 w-full">
+      <div className="flex flex-col justify-around items-start p-6 gap-4 w-full">
         <h3 className="text-2xl text-[#0b5981]">{project.title}</h3>
         <p className="text-lg text-[#555]">{project.description}</p>
 
@@ -87,12 +87,12 @@ function ProjectCard({ project }) {
           ))}
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 justify-center w-full md:w-auto">
+        <div className="flex flex-col md:flex-row gap-4 justify-center w-full">
           <a
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#0b5981] text-white px-4 py-2 rounded-md list-none text-l transition-all duration-300 hover:bg-[#083a5a] text-center w-full md:w-auto"
+            className="bg-[#0b5981] text-white px-4 py-2 rounded-md list-none text-l hover:bg-[#083a5a] text-center w-full md:w-auto"
           >
             Ver Código
           </a>
@@ -100,7 +100,7 @@ function ProjectCard({ project }) {
             href={project.live}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#0b5981] text-white px-4 py-2 rounded-md list-none text-l transition-all duration-300 hover:bg-[#083a5a] text-center w-full md:w-auto"
+            className="bg-[#0b5981] text-white px-4 py-2 rounded-md list-none text-l hover:bg-[#083a5a] text-center w-full md:w-auto"
           >
             Ver Demo
           </a>
@@ -112,9 +112,9 @@ function ProjectCard({ project }) {
 
 function ProjectsSection() {
   return (
-    <section id="projects" className="pt-12 md:pt-12">
+    <section id="projects" className="pt-12">
       <h2 className="text-[2.5rem] py-[1.5rem] px-4 md:px-0">🚀 Proyectos</h2>
-      <div className="flex flex-col max-w-[768px] mx-auto gap-8 justify-center px-4 md:px-0">
+      <div className="flex flex-col max-w-[768px] mx-auto gap-8 justify-center">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
