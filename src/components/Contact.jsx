@@ -8,6 +8,7 @@ function Contact() {
     message: "",
   });
 
+  // Este handleChange se pasa como función a los inputs para que guarde los datos al ingresarlos
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -15,9 +16,9 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = "service_qyif94f";
-    const templateID = "template_gcft5ck";
-    const publicKey = "RPSpZPMFCF0oknFRj";
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     emailjs
       .send(serviceID, templateID, formData, publicKey)
