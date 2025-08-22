@@ -1,4 +1,5 @@
 function Skills() {
+  // Componente que muestra las skills
   const skills = [
     { src: "/logos/html5.svg", alt: "Logotipo de HTML5", logo: "HTML5" },
     { src: "/logos/css.svg", alt: "Logo CSS", logo: "CSS" },
@@ -27,7 +28,6 @@ function Skills() {
                 className="w-[100px] block"
                 src={skill.src}
                 alt={skill.alt}
-                loading="lazy"
               />
               <figcaption className="font-semibold text-l text-black mt-2">
                 {skill.logo}

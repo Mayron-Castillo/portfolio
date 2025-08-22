@@ -6,6 +6,7 @@ const techImages = {
   Tailwind: "/logos/tailwind.svg",
 };
 
+// Proyectos con su información
 const projects = [
   {
     id: 1,
@@ -59,8 +60,9 @@ const projects = [
 ];
 
 function ProjectCard({ project }) {
+  // Aquí se encarga de mostrar el contenido que va a tener cada proyecto
   return (
-    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] bg-white rounded-2xl shadow-lg border border-[#e3f3fa]">
+    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] m-4 md:m-0 bg-white rounded-2xl shadow-lg border border-[#e3f3fa]">
       <img
         src={project.image}
         alt={project.title}
@@ -110,6 +112,7 @@ function ProjectCard({ project }) {
 }
 
 function ProjectsSection() {
+  // Esto hace el .map para mostrar todos los proyectos
   return (
     <section id="projects" className="pt-12">
       <h2 className="text-[2.5rem] py-[1.5rem] px-4 md:px-0">🚀 Proyectos</h2>

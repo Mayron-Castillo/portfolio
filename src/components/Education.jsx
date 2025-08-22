@@ -1,4 +1,5 @@
 function Education() {
+  // Componente que muestra la educación
   return (
     <section
       id="education"

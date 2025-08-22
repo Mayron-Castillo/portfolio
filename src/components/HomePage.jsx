@@ -6,7 +6,7 @@ function HomePage() {
     >
       <h1 className="text-6xl font-semibold">Soy Mayron Castillo</h1>
 
-      <div className="flex flex-col gap-6 text-[1.25rem] text-left leading-8 tracking-wider p-4 md:p-0 md:max-w-[800px]">
+      <div className="flex flex-col gap-6 text-[1.25rem] text-left leading-8 tracking-wider py-4 md:p-0 md:max-w-[800px]">
         <p className="md:leading-9">
           <span className="font-bold text-[#0b5981]">
             Desarrollador Frontend{" "}

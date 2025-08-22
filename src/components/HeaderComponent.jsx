@@ -3,6 +3,7 @@ import { useState } from "react";
 function HeaderComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  //Toggle para abrir y cerrar el menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -13,6 +14,7 @@ function HeaderComponent() {
         <div className="px-4 md:hidden">
           <span className="text-[#086a9c]">MC</span>
         </div>
+        {/* Si se le da clic se abre y si se le da clic a la X se cierra el menú  */}
         <button
           onClick={toggleMenu}
           className="md:hidden px-4 py-2 z-50 relative text-[#086a9c] text-2xl transition-all duration-300 cursor-pointer"

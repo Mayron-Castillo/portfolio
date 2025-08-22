@@ -20,6 +20,7 @@ function Contact() {
     const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
+    // Envia el correo a EmailJS
     emailjs
       .send(serviceID, templateID, formData, publicKey)
       .then((response) => {
@@ -28,6 +29,7 @@ function Contact() {
           response.status,
           response.text
         );
+        // Al enviarse correctamente se muestra el mensaje y se vacían los campos
         alert("Mensaje enviado!");
         setFormData({ name: "", email: "", message: "" });
       })
