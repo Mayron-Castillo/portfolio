@@ -12,7 +12,7 @@ const projects = [
     id: 1,
     title: "Portfolio personal",
     description:
-      "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
+      "Este es mi portfolio personal que estás viendo, donde muestro mis proyectos, skills y educación",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
     image: "/logos/portfolio.webp",
     github: "https://github.com/Mayron-Castillo/portfolio",
@@ -20,6 +20,17 @@ const projects = [
   },
   {
     id: 2,
+    title: "Dashboard",
+    description:
+      "Web de una dashboard completa, con distintos componentes que se muestran en las que se usan llamadas a APIs, y un CRUD completo simulado ",
+    technologies: ["React", "Tailwind"],
+    image: "/logos/dashboard.webp",
+    github: "https://github.com/Mayron-Castillo/dashboard",
+    live: "https://mayrondashboard.vercel.app/",
+  },
+
+  {
+    id: 3,
     title: "E-commerce de camisetas de futbol",
     description:
       "Web de una e-commerce de camisetas de futbol, con varias funcionalidades",
@@ -27,15 +38,6 @@ const projects = [
     image: "/logos/e-commerce.webp",
     github: "https://github.com/Mayron-Castillo/e-commerce-futbol",
     live: "https://e-commerce-futbol-mayron.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Dashboard",
-    description: "Web de una dashboard",
-    technologies: ["React", "Tailwind"],
-    image: "/logos/dashboard.webp",
-    github: "https://github.com/Mayron-Castillo/dashboard",
-    live: "https://mayrondashboard.vercel.app/",
   },
 
   {
