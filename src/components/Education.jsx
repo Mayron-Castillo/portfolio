@@ -15,7 +15,7 @@ function Education() {
             Noviembre 2024- Julio 2025
           </p>
           <p className="my-2 text-sm md:text-base text-[#666]">
-            📌 Temas: HTML, CSS, JS, REACT, TAILWIND"
+            📌 Temas: HTML, CSS, JS, REACT, TAILWIND
           </p>
         </div>
       </div>
