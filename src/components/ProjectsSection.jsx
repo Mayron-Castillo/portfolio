@@ -10,16 +10,6 @@ const techImages = {
 const projects = [
   {
     id: 1,
-    title: "Portfolio personal",
-    description:
-      "Este es mi portfolio personal que estás viendo, donde muestro mis proyectos, skills y educación",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-    image: "/logos/portfolio.webp",
-    github: "https://github.com/Mayron-Castillo/portfolio",
-    live: "https://portfolio-mayron.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Dashboard",
     description:
       "Web de una dashboard completa, con distintos componentes que se muestran en las que se usan llamadas a APIs, y un CRUD completo simulado ",
@@ -28,7 +18,16 @@ const projects = [
     github: "https://github.com/Mayron-Castillo/dashboard",
     live: "https://mayrondashboard.vercel.app/",
   },
-
+  {
+    id: 2,
+    title: "Portfolio personal",
+    description:
+      "Este es mi portfolio personal que estás viendo, donde muestro mis proyectos, skills y educación",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+    image: "/logos/portfolio.webp",
+    github: "https://github.com/Mayron-Castillo/portfolio",
+    live: "https://portfolio-mayron.vercel.app/",
+  },
   {
     id: 3,
     title: "E-commerce de camisetas de futbol",
@@ -64,11 +63,11 @@ const projects = [
 function ProjectCard({ project }) {
   // Aquí se encarga de mostrar el contenido que va a tener cada proyecto
   return (
-    <div className="flex flex-col md:flex-row overflow-hidden max-w-[768px] h-auto md:h-[350px] m-4 md:m-0 bg-white rounded-2xl shadow-lg border border-[#e3f3fa]">
+    <div className="flex flex-col overflow-hidden max-w-[768px] h-auto m-4 md:m-0 bg-white rounded-2xl shadow-lg border border-[#e3f3fa]">
       <img
         src={project.image}
         alt={project.title}
-        className="w-full md:w-[350px] h-auto object-cover rounded-t-lg md:rounded-l-lg md:rounded-tr-none"
+        className="w-full h-auto object-cover rounded-t-lg"
       />
       <div className="flex flex-col justify-around items-start p-6 gap-4 w-full">
         <h3 className="text-2xl text-[#0b5981]">{project.title}</h3>
