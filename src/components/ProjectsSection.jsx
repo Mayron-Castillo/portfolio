@@ -63,7 +63,7 @@ const projects = [
 function ProjectCard({ project }) {
   // Aquí se encarga de mostrar el contenido que va a tener cada proyecto
   return (
-    <div className="flex flex-col overflow-hidden max-w-[768px] h-auto m-4 md:m-0 bg-white rounded-2xl shadow-lg border border-[#e3f3fa]">
+    <div className="flex flex-col overflow-hidden max-w-[768px] h-auto m-4 md:m-0 bg-white rounded-2xl shadow-lg border-2 border-[#bee6f9]">
       <img
         src={project.image}
         alt={project.title}
