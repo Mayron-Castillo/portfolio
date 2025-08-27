@@ -52,7 +52,7 @@ const projects = [
     id: 5,
     title: "App de notas",
     description:
-      "Web en la que puedes poner tus notas, que utiliza una API, para guardarte tus notas y con varias funcionalidades",
+      "Web en la que puedes poner tus notas, que utiliza Local Storage, para guardarte tus notas y con varias funcionalidades",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
     image: "/logos/notes.webp",
     github: "https://github.com/Mayron-Castillo/notes-app-react",
