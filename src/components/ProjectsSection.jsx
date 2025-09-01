@@ -35,8 +35,8 @@ const projects = [
       "Web de una e-commerce de camisetas de futbol, con varias funcionalidades",
     technologies: ["React", "Tailwind"],
     image: "/logos/e-commerce.webp",
-    github: "https://github.com/Mayron-Castillo/e-commerce-futbol",
-    live: "https://e-commerce-futbol-mayron.vercel.app/",
+    github: "https://github.com/Mayron-Castillo/ecommerce-futbol",
+    live: "https://ecommerce-futbol.vercel.app/",
   },
 
   {
