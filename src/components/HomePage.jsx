@@ -13,8 +13,10 @@ function HomePage() {
           </span>
           autodidacta con una gran pasión por la tecnología y el aprendizaje
           continuo. Actualmente, me especializo en{" "}
-          <span className="font-bold text-[#0b5981]">React y JavaScript</span>,
-          creando interfaces modernas, optimizadas y accesibles.
+          <span className="font-bold text-[#0b5981]">
+            React, JavaScript y TypeScript
+          </span>
+          , creando interfaces modernas, optimizadas y accesibles.
         </p>
         <p>
           Estoy enfocado en mejorar mis habilidades para convertirme en un
