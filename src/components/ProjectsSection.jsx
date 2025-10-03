@@ -4,6 +4,8 @@ const techImages = {
   JavaScript: "/logos/javascript.svg",
   React: "/logos/react.svg",
   Tailwind: "/logos/tailwind.svg",
+  TypeScript: "/logos/typescript.svg",
+  Vite: "/logos/vite.svg",
 };
 
 // Proyectos con su información
@@ -13,7 +15,7 @@ const projects = [
     title: "Dashboard",
     description:
       "Web de una dashboard completa, con distintos componentes que se muestran en las que se usan llamadas a APIs, y un CRUD completo simulado ",
-    technologies: ["React", "Tailwind"],
+    technologies: ["React", "Tailwind", "TypeScript", "Vite"],
     image: "/logos/dashboard.webp",
     github: "https://github.com/Mayron-Castillo/dashboard",
     live: "https://mayrondashboard.vercel.app/",
@@ -33,7 +35,7 @@ const projects = [
     title: "E-commerce de camisetas de futbol",
     description:
       "Web de una e-commerce de camisetas de futbol, con varias funcionalidades",
-    technologies: ["React", "Tailwind"],
+    technologies: ["React", "Tailwind", "Vite"],
     image: "/logos/e-commerce.webp",
     github: "https://github.com/Mayron-Castillo/ecommerce-futbol",
     live: "https://ecommerce-futbol.vercel.app/",
